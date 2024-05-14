@@ -165,11 +165,11 @@ h6 {
   line-height: 20px;
 }
 
-#nav > li + li {
+#nav>li+li {
   margin-left: 30px;
 }
 
-#nav > li > a:after {
+#nav>li>a:after {
   content: "";
   display: block;
   width: 0%;
@@ -186,7 +186,7 @@ h6 {
   color: #d10024;
 }
 
-#nav > li:hover > a::after {
+#nav>li:hover>a::after {
   width: 100%;
 }
 
@@ -245,13 +245,13 @@ h6 {
   transform: skewX(-45deg) translateX(-100%);
 }
 
-.shop .shop-img > img {
+.shop .shop-img>img {
   width: 100%;
   -webkit-transition: 0.2s all;
   transition: 0.2s all;
 }
 
-.shop:hover .shop-img > img {
+.shop:hover .shop-img>img {
   -webkit-transform: scale(1.1);
   -ms-transform: scale(1.1);
   transform: scale(1.1);
@@ -315,7 +315,7 @@ a {
   align-items: center;
 }
 
-.featured-product_right #nav > li + li {
+.featured-product_right #nav>li+li {
   margin-left: 0;
 }
 
@@ -374,11 +374,11 @@ a {
   height: 20px;
 }
 
-.product .product-body .product-rating > i.fa-star {
+.product .product-body .product-rating>i.fa-star {
   color: #ef233c;
 }
 
-.product .product-body .product-btns > button {
+.product .product-body .product-btns>button {
   position: relative;
   width: 40px;
   height: 40px;
@@ -389,7 +389,7 @@ a {
   transition: 0.2s all;
 }
 
-.product .product-body .product-btns > button .tooltipp {
+.product .product-body .product-btns>button .tooltipp {
   position: absolute;
   bottom: 100%;
   left: 50%;
@@ -410,13 +410,13 @@ a {
   transition: 0.2s all;
 }
 
-.product .product-body .product-btns > button:hover {
+.product .product-body .product-btns>button:hover {
   background-color: #e4e7ed;
   color: #d10024;
   border-radius: 50%;
 }
 
-.product .product-body .product-btns > button:hover .tooltipp {
+.product .product-body .product-btns>button:hover .tooltipp {
   opacity: 1;
   visibility: visible;
   -webkit-transform: translate(-50%, -5px);
@@ -438,7 +438,7 @@ a {
   transition: 0.2s all;
 }
 
-.product .add-to-cart .add-to-cart-btn > i {
+.product .add-to-cart .add-to-cart-btn>i {
   position: absolute;
   left: 0;
   top: 0;
@@ -489,7 +489,7 @@ a {
   margin-bottom: 30px;
 }
 
-.hot-deal .hot-deal-countdown > li {
+.hot-deal .hot-deal-countdown>li {
   position: relative;
   display: inline-block;
   width: 80px;
@@ -500,7 +500,7 @@ a {
   margin: 0px 5px;
 }
 
-.hot-deal .hot-deal-countdown > li > div {
+.hot-deal .hot-deal-countdown>li>div {
   position: absolute;
   left: 0;
   right: 0;
@@ -510,12 +510,12 @@ a {
   transform: translateY(-50%);
 }
 
-.hot-deal .hot-deal-countdown > li > div h3 {
+.hot-deal .hot-deal-countdown>li>div h3 {
   color: #fff;
   margin-bottom: 0px;
 }
 
-.hot-deal .hot-deal-countdown > li > div span {
+.hot-deal .hot-deal-countdown>li>div span {
   display: block;
   font-size: 10px;
   text-transform: uppercase;
@@ -705,7 +705,7 @@ a {
   color: #d0021b;
 }
 
-.aside > .aside-title {
+.aside>.aside-title {
   text-transform: uppercase;
   font-size: 18px;
   margin: 15px 0px 30px;
@@ -735,8 +735,8 @@ a {
   cursor: pointer;
 }
 
-.input-radio input[type="radio"] + label span,
-.input-checkbox input[type="checkbox"] + label span {
+.input-radio input[type="radio"]+label span,
+.input-checkbox input[type="checkbox"]+label span {
   position: absolute;
   left: 0px;
   top: 4px;
@@ -751,7 +751,7 @@ a {
   font-size: 12px;
 }
 
-.input-checkbox input[type="checkbox"] + label span::after {
+.input-checkbox input[type="checkbox"]+label span::after {
   content: "✔";
   position: absolute;
   top: 0;
@@ -763,13 +763,13 @@ a {
   transition: all 0.2s ease 0s;
 }
 
-.input-radio input[type="radio"]:checked + label span,
-.input-checkbox input[type="checkbox"]:checked + label span {
+.input-radio input[type="radio"]:checked+label span,
+.input-checkbox input[type="checkbox"]:checked+label span {
   background-color: #d10024;
   border-color: #d10024;
 }
 
-.input-checkbox input[type="checkbox"]:checked + label span:after {
+.input-checkbox input[type="checkbox"]:checked+label span:after {
   opacity: 1;
   -webkit-transform: scale(1);
   -ms-transform: scale(1);
@@ -798,7 +798,7 @@ a {
   width: 60px;
 }
 
-.product-widget .product-img > img {
+.product-widget .product-img>img {
   width: 100%;
 }
 
@@ -813,7 +813,7 @@ a {
   color: #8d99ae;
 }
 
-.product-widget .product-body .product-name > a {
+.product-widget .product-body .product-name>a {
   font-weight: 700;
   font-size: 13px;
   text-decoration: none;
