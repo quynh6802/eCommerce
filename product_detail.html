@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.min.css">
+  <link rel="stylesheet" href="./style/grid.css">
+  <link rel="stylesheet" href="./style/index.css">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./fontawesome-free-6.2.0-web/css/all.min.css">
+</head>
+
+<body>
+  <div class="main">
+    <div class="grid">
+      <div class="top-header">
+        <div class="grid wide ">
+          <ul class="header-links link-left">
+            <li><a href=" #"><i class="fa fa-phone"></i>0342459716</a></li>
+            <li><a href="#"><i class="fa fa-envelope"></i>quynh682002@gmail.com</a></li>
+            <li><a href="#"><i class="fa-solid fa-location-dot"></i>Ý Yên - Nam Định</a></li>
+          </ul>
+          <ul class="header-links link-right">
+            <li><a href="./login.html"><i class="fa fa-user"></i>Login</a></li>
+            <li><a href="#"><i class="fa fa-money-bill"></i>VND</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="header">
+        <div class="left-header">
+          <img src="./img/Logo.png" alt="">
+        </div>
+        <div>
+          <input type="text" class="input-search" placeholder="Nhập để tìm kiếm">
+          <button type="button" class="btn_search">Search</button>
+        </div>
+        <div class="right-header">
+          <div class="icon">
+            <a href=""><i class="fa-regular fa-heart"></i>
+              <div class="qty">2</div>
+            </a>
+          </div>
+          <div class="icon">
+            <a href=""><i class="fa-solid fa-cart-shopping"></i>
+              <div class="qty">2</div>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="header__nav">
+        <div class="grid wide">
+          <ul id="nav">
+            <li>
+              <a href="/index.html">home</a>
+            </li>
+            <li>
+              <a href="./products.html">store</a>
+            </li>
+            <li>
+              <a href="./product_detail.html">detail product
+              </a>
+            </li>
+            <li>
+              <a href="./cart.html">cart</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="container">
+      <div class="grid wide">
+        <div class="nav-page">
+          <div class="nav-home">Trang chủ</div>
+          <i class="fas fa-chevron-right nav-page__icon"></i>
+          <div class="nav-secondpage">Laptop</div>
+        </div>
+        <div class="detail-product">
+          <div class="row">
+            <div class="col l-8 detail-product__img">
+              <div class="detail-product__left">
+                <img src="img/product01.png" alt="" class="thumbnail">
+                <img src="img/product03.png" alt="" class="thumbnail">
+                <img src="img/product06.png" alt="" class="thumbnail">
+                <img src="img/product08.png" alt="" class="thumbnail">
+              </div>
+              <div class="detail-product__center">
+                <img src="img/product01.png" alt="" class="large-image show">
+                <img src="img/product03.png" alt="" class="large-image">
+                <img src="img/product06.png" alt="" class="large-image">
+                <img src="img/product08.png" alt="" class="large-image">
+              </div>
+            </div>
+            <div class="col l-4">
+              <div class="detail-product__right">
+                <h2 class="detail-product__right-title">Laptop</h2>
+                <div class="star">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <div class="detai-product__price">$999</div>
+                <div class="detai-product__info">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.r
+                  orci.</div>
+                <div class="detai-product__select">
+                  <div class="color-select">
+                    <div class="detai-product__color-text">COLOR</div>
+                    <div class="detai-product__color">
+                      <select class="input-select" name="" id="">
+                        <option value="">Black</option>
+                        <option value="">Red</option>
+                      </select>
+                    </div>
+                  </div>
+                  <div class="size-select">
+                    <div class="detai-product__size-text">SIZE</div>
+                    <div class="detai-product__size">
+                      <select class="input-select" name="" id="">
+                        <option value="">S</option>
+                        <option value="">M</option>
+                        <option value="">L</option>
+                      </select>
+                    </div>
+                  </div>
+                </div>
+                <div class="detai-product__in-stock">12 in stock</div>
+                <div class="detai-product__quantity">
+                  <button class="minus"><i class="fa-solid fa-minus"></i></button>
+                  <input type="text" name="quantity" value="1" class="quantity-input">
+                  <button class="plus"><i class="fa-solid fa-plus"></i></button>
+                </div>
+                <div class="detai-product__buy">
+                  <a href="" class="detai-product__buy-now">BUY NOW</a>
+                  <button class="add-to-cart-btn"><i class="fa-solid fa-cart-shopping"></i>add to cart</button>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="detai_product-descrip__text-box">
+          <div class="detai_product-descrip__text active">Decription</div>
+          <div class="detai_product-descrip__text">Detail</div>
+        </div>
+        <div class="detai_product-descrip show">
+          <div class="detai_product-descrip__content show">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit, 
+            sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+            Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. 
+            Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+            Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.s
+          </div>
+          <div class="detai_product-descrip__content">
+            Lorem ipsum dolor sit amet, consectetur adipisicing elit,
+             sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. 
+             Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+              Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur.
+             Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborumasss.
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="footer">
+    <div class="grid wide">
+      <div class="row">
+        <div class="footer-heading col l-3">MENU
+          <div class="footer-heading__nav">
+            <ul>
+              <li class="">
+                <a href="">Trang chủ</a>
+              </li>
+              <li class="">
+                <a href="">Liên hệ</a>
+              </li>
+              <li class="">
+                <a href="">Giới thiệu</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-heading col l-3">CHÍNH SÁCH
+          <div class="footer-heading__nav">
+            <ul>
+              <li class="">
+                <a href="">Điều khoản & điều kiện</a>
+              </li>
+              <li class="">
+                <a href="">Chính sách bảo mật</a>
+              </li>
+              <li class="">
+                <a href="">Chính sách giao hàng</a>
+              </li>
+              <li class="">
+                <a href="">Chính sách bảo hành</a>
+              </li>
+              <li class="">
+                <a href="">Chính sách đổi trả</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-heading col l-3">ĐỊA CHỈ
+          <div class="footer-heading-information">
+            <div class="footer-heading__address">
+              <a href="#" class="footer-heading__contact">
+                <i class="footer-heading-information__icon fa-solid fa-location-dot"></i>
+                Thị Trấn Lâm- Ý Yên- Nam Định
+              </a>
+            </div>
+            <a href="" class="footer-heading__contact">
+              <i class="footer-heading-information__icon fa-solid fa-phone"></i>
+              0342 459 716
+            </a>
+            <a href="" class="footer-heading__gmail">
+              <i class="footer-heading-information__icon fa-regular fa-envelope"></i>
+              quynh6802@gmail.com
+            </a>
+          </div>
+
+        </div>
+        <div class="footer-heading col l-3">
+          MẠNG XÃ HỘI
+          <div class="footer-heading__social">
+            <a href="" class="footer-heading__social-icon">
+              <i class="fa-brands fa-facebook"></i>
+            </a>
+            <a href="" class="footer-heading__social-icon">
+              <i class="fa-brands fa-instagram"></i>
+            </a>
+            <a href="" class="footer-heading__social-icon">
+              <i class="fa-brands fa-twitter"></i>
+            </a>
+            <a href="" class="footer-heading__social-icon">
+              <i class="fa-brands fa-pinterest-p"></i>
+            </a>
+            <a href="" class="footer-heading__social-icon">
+              <i class="fa-brands fa-tiktok"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+      <div class="line__separate"></div>
+      <div class="footer-policy">
+        <div class="footer-policy__img">
+          <img src="./img/payment1.png" alt="">
+          <img src="./img/payment2.png" alt="">
+          <img src="./img/payment3.png" alt="">
+        </div>
+        <!-- <img src="./img/logo_bct.webp" alt="" class="img-verified"> -->
+      </div>
+      <div class="bottom-footer">
+        <p>Copyright ©2024 All rights reserved | This template is made by <a href="#">Phạm Văn Quỳnh</a></p>
+      </div>
+    </div>
+  </div>
+  </div>
+  <script src="./js/main.js"></script>
+</body>
+
+</html>
